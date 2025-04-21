@@ -1,0 +1,36 @@
+.icon {
+    -fx-fill: #00FFF0;
+}
+
+.icon:hover {
+    -fx-fill: #00BEFF;
+}
+
+.icon:pressed {
+    -fx-fill: #7000FF;
+}
+
+.textField {
+    -fx-font-family: "bookman old style";
+    -fx-background-radius: 20px;
+    -fx-border-color: blue;
+    -fx-border-width: 1px;
+    -fx-border-radius: 20px;
+    -fx-padding: 4px 10px;
+    -fx-margin-bottom: 5px;
+}
+
+.background {
+    -fx-background-image: url("../images/mainViewBackground.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.table-row-cell {
+    -fx-font-family: "bookman old style";
+}
+
+.column-header {
+    -fx-font-family: "bookman old style";
+}
