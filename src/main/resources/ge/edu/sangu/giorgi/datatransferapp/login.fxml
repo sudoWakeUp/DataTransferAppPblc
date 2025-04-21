@@ -55,19 +55,19 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <TextField fx:id="addressField" prefHeight="26.0" prefWidth="192.0" promptText="IP Address" styleClass="textField" text="65.2.137.155">
+                  <TextField fx:id="addressField" prefHeight="26.0" prefWidth="192.0" promptText="IP Address" styleClass="textField" text="">
                      <GridPane.margin>
                         <Insets right="5.0" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField fx:id="portField" promptText="Port" styleClass="textField" text="22" GridPane.columnIndex="1" />
+                  <TextField fx:id="portField" promptText="Port" styleClass="textField" text="" GridPane.columnIndex="1" />
                </children>
                <VBox.margin>
                   <Insets top="30.0" />
                </VBox.margin>
             </GridPane>
-            <TextField fx:id="usernameField" promptText="Username" styleClass="textField" text="admin" />
-            <PasswordField fx:id="passwordField" promptText="Password" styleClass="textField" text="Paroligi2gi." />
+            <TextField fx:id="usernameField" promptText="Username" styleClass="textField" text="" />
+            <PasswordField fx:id="passwordField" promptText="Password" styleClass="textField" text="" />
             <Button fx:id="loginButton" defaultButton="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onLoginButtonClick" prefHeight="35.0" prefWidth="100.0" text="Login" textAlignment="CENTER">
                <font>
                   <Font name="Bookman Old Style Bold" size="14.0" />
